@@ -204,7 +204,6 @@
 }
 
 .main .container .section1 {
-  height: 700px;
   margin-top: 43px;
   color: #d6ddde;
 }
@@ -278,276 +277,150 @@
 }
 
 .main .container .section1 .userDeviceInfoContainer .userDeviceInfo .systemDate {
-  margin-right: 156px;
+  margin-right: 154px;
 }
 
 .main .container .section1 .mainBranch {
-  height: 115px;
-}
-
-.main .container .buttons {
+  height: 119px;
+  border-left: 6px solid #161819;
+  margin-left: 19px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.main .container .buttons .addLicenseBtn {
-  width: 113px;
-  height: 31px;
-  background-color: #499861;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-  color: #fff;
-  margin-right: 15px;
-}
-
-.main .container .buttons .removeBtn {
-  width: 82px;
-  height: 31px;
-  background-color: #cc4343;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-  color: #fff;
-}
-/*# sourceMappingURL=style.css.map */* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Roboto";
-}
-
-.main {
-  background: #1f2224;
-  height: 1080px;
-}
-
-.main .container {
-  margin-left: 32px;
-  margin-right: 32px;
-}
-
-.main .container header {
+.main .container .section1 .mainBranch .systemContainer {
+  width: 377px;
+  height: 14px;
+  margin-top: 16px;
+  margin-left: 39px;
+  margin-bottom: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.main .container .section1 .mainBranch .branch {
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .container .section1 .mainBranch .branch .childBranchContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 30px;
 }
 
-.main .container header .logo {
-  color: #d6ddde;
-  font-size: 28px;
+.main .container .section1 .mainBranch .branch .childBranchContainer .line {
+  width: 29px;
+  height: 6px;
+  background-color: #161819;
 }
 
-.main .container header .statusColection {
+.main .container .section1 .mainBranch .branch .childBranchContainer .childBranch {
+  width: 100%;
+  height: 44px;
+  background-color: #1a1c1e;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.main .container .section1 .mainBranch .branch .childBranchContainer .childBranch .branchInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
   width: 381px;
+}
+
+.main .container .section1 .mainBranch .branch .childBranchContainer .childBranch .branchInfo2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-left: 10px;
+  width: 422px;
 }
 
-.main .container header .statusColection .statusContainer {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  opacity: 0.25;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main .container header .statusColection .clientStatus {
-  width: 48px;
-  height: 48px;
-  border-radius: 2px;
-  position: relative;
-}
-
-.main .container header .statusColection .textFree {
-  width: 56px;
-  height: 20px;
-  background-color: #131718;
-  position: absolute;
-  color: #d6ddde;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 14px;
-}
-
-.main .container header .statusColection .textPro {
-  width: 56px;
-  height: 20px;
-  background-color: #131718;
-  position: absolute;
-  color: #d6ddde;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 14px;
-}
-
-.main .container header .statusColection .textVip {
-  width: 56px;
-  height: 20px;
-  background-color: #131718;
-  position: absolute;
-  color: #d6ddde;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 14px;
-}
-
-.main .container header .statusColection #free {
-  background-color: #499861;
-  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-          clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-
-.main .container header .statusColection #pro {
-  background-color: #598b8d;
-  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-          clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-
-.main .container header .statusColection #vip {
-  background-color: #da9422;
-  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-          clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-
-.main .container header .statusColection .active {
-  opacity: 1;
-}
-
-.main .container header .statusColection .upgradeBtn {
-  width: 137px;
-  height: 35px;
-  background: #18a7ff;
-  border-radius: 4px;
+.main .container .section1 .mainBranch .branch .childBranchContainer .childBranch .download {
+  margin-right: 30px;
   border: none;
+  background: none;
   font-size: 16px;
-  color: #fff;
-  margin-left: 36px;
   cursor: pointer;
-}
-
-.main .container nav {
-  height: 42px;
-  margin-top: 50px;
-  border-bottom: 1px solid #8b9091;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.main .container nav .navList {
-  width: 383px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   color: #d6ddde;
 }
 
-.main .container nav .navList .navListItem {
-  opacity: 0.6;
-  width: 144px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 16px;
-}
-
-.main .container nav .active {
-  border-bottom: 2px solid #18a7ff;
-  height: 42px;
-  opacity: 1 !important;
-}
-
-.main .container .section1 {
-  height: 700px;
-  margin-top: 43px;
+.main .container .section2 {
+  margin-top: 39px;
   color: #d6ddde;
 }
 
-.main .container .section1 .sellTitleContainer {
+.main .container .section2 .a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   opacity: 0.6;
-  margin-top: 24px;
-  margin-left: 17px;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
-.main .container .section1 .sellTitleContainer .sellTitleItem1 {
-  margin-right: 222px;
+.main .container .section2 .a .b {
+  width: 567px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.main .container .section1 .sellTitleContainer .sellTitleItem2 {
-  margin-right: 80px;
+.main .container .section2 .a .b .c {
+  width: 252px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.main .container .section1 .sellTitleContainer .sellTitleItem3 {
-  margin-right: 101px;
-}
-
-.main .container .section1 .userDeviceInfoContainer {
+.main .container .section2 .userDeviceInfoContainer2 {
   background-color: #1a1c1e;
   height: 44px;
   border-radius: 4px;
@@ -561,9 +434,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 48px;
 }
 
-.main .container .section1 .userDeviceInfoContainer .userDeviceInfo {
+.main .container .section2 .userDeviceInfoContainer2 .userDeviceInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -572,36 +446,96 @@
           align-items: center;
 }
 
-.main .container .section1 .userDeviceInfoContainer .userDeviceInfo .dropDown {
+.main .container .section2 .userDeviceInfoContainer2 .userDeviceInfo .dropRight {
   width: 12px;
   height: 10px;
   background-color: #d6ddde;
-  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
-          clip-path: polygon(50% 100%, 0 0, 100% 0);
+  -webkit-clip-path: polygon(90% 50%, 0 100%, 0 0);
+          clip-path: polygon(90% 50%, 0 100%, 0 0);
   margin-left: 17px;
   margin-right: 17px;
 }
 
-.main .container .section1 .userDeviceInfoContainer .userDeviceInfo .systemName {
-  margin-right: 69px;
+.main .container .section2 .userDeviceInfoContainer2 .userDeviceInfo .systemName {
+  margin-right: 134px;
 }
 
-.main .container .section1 .userDeviceInfoContainer .userDeviceInfo .systemId {
-  margin-right: 81px;
+.main .container .section2 .userDeviceInfoContainer2 .userDeviceInfo .systemId {
+  margin-right: 80px;
 }
 
-.main .container .section1 .userDeviceInfoContainer .userDeviceInfo .systemDate {
+.main .container .section2 .userDeviceInfoContainer2 .userDeviceInfo .systemDate {
   margin-right: 156px;
 }
 
-.main .container .section1 .mainBranch {
-  height: 115px;
+.main .container .section3 {
+  height: 231px;
+  border: 1px dashed rgba(214, 221, 222, 0.26);
+  border-radius: 4px;
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .container .section3 .square {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #d6ddde;
+  margin-top: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.main .container .section3 .choseFileContainer {
+  width: 270px;
+  margin-top: 28px;
+  color: #D6DDDE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main .container .section3 .choseFileContainer .chooseFile {
+  color: #18A7FF;
+  cursor: pointer;
+}
+
+.main .container .section3 #square {
+  display: none;
+  visibility: none;
+}
+
+.main .container .section3 #chooseFile {
+  display: none;
+  visibility: none;
 }
 
 .main .container .buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 16px;
 }
 
 .main .container .buttons .addLicenseBtn {
@@ -624,4 +558,3 @@
   border-radius: 4px;
   color: #fff;
 }
-/*# sourceMappingURL=style.css.map */
