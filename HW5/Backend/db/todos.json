@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "First todo",
+    "content": "Wake up and call for your car!",
+    "dueDate": "2022-05-31T12:00",
+    "status": false,
+    "reminded": false
+  },
+  {
+    "id": 2,
+    "title": "Another one",
+    "content": "adff",
+    "dueDate": "2022-05-31T04:32",
+    "status": false,
+    "reminded": true
+  }
+]
